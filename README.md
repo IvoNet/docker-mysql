@@ -25,8 +25,8 @@ and when done removed.
 ## Why
 
 My version of the MySql image exposes a `/testdata` folder and that folder is monitored for changes.
-When changes detected it will execute it on the running database.
-You can put testdata `*.sql` files there. Note that the files will also be removed from that folder after it has been consumed against the db. Only `*.sql` files will be cunsumed. all other files will be ignored. A log file in that folder will give feedback on what happened.
+When changes detected, it will execute it on the running database.
+You can put testdata `*.sql` files there. Note that the files will also be removed from that folder after it has been consumed against the db. Only `*.sql` files will be consumed. all other files will be ignored. A log file in that folder will give feedback on what happened.
 
 ## A docker compose example
 
