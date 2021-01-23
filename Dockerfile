@@ -1,4 +1,4 @@
-FROM mysql:5.7.22
+FROM mysql:5.7.29
 LABEL maintainer="Ivo Woltring <webmaster@ivonet.nl>"
 
 ENV TEST_DIR=/testdata
