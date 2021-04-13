@@ -11,7 +11,9 @@ and when done removed.
 
 ## How to build
 
-* Run `build.sh` from this folder
+```shell
+docker build -t ivonet/mysql .
+```
 
 ## What it does
 
